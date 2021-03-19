@@ -40,7 +40,7 @@
               </svg>
             </div>
 
-            <input id="email" type="email" v-model="email" class="text-sm sm:text-base placeholder-gray-500 pl-10 pr-4 rounded-lg border border-gray-400 w-full py-2 focus:outline-none focus:border-blue-400" placeholder="E-Mail Address" />
+            <input id="email" type="email" v-model="data.email" class="text-sm sm:text-base placeholder-gray-500 pl-10 pr-4 rounded-lg border border-gray-400 w-full py-2 focus:outline-none focus:border-blue-400" placeholder="E-Mail Address" />
           </div>
         </div>
         <div class="flex flex-col mb-6">
@@ -54,7 +54,7 @@
               </span>
             </div>
 
-            <input id="password" type="password" v-model="password" class="text-sm sm:text-base placeholder-gray-500 pl-10 pr-4 rounded-lg border border-gray-400 w-full py-2 focus:outline-none focus:border-blue-400" placeholder="Password" />
+            <input id="password" type="password" v-model="data.password" class="text-sm sm:text-base placeholder-gray-500 pl-10 pr-4 rounded-lg border border-gray-400 w-full py-2 focus:outline-none focus:border-blue-400" placeholder="Password" />
           </div>
         </div>
 
@@ -111,7 +111,8 @@ export default {
       this.$axios.post('api/user/login', {
         email: this.data.email,
         password: this.data.password
-      }).then(r=> {
+      }).then(r => {
+        this.isLoading = false
         console.log(r)
       })
     }
