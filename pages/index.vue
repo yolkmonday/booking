@@ -56,7 +56,7 @@
           </div>
           
         </div>
-         <img src="/assets/img/8-min.jpg" style="height:600px" class="w-full object-cover" alt="">   
+         <img src="/assets/img/8_min.jpg" style="height:600px" class="w-full object-cover" alt="">   
       </div>
  
       <div class="bg-white w-10 flex items-center cursor-pointer ">
@@ -180,7 +180,7 @@
 <section>
         <div class="flex flex-wrap">
           <div class="w-1/3">
-            <div class="h-full w-full bg-cover" style="background-image: url('/assets/img/3-min.jpg')">
+            <div class="h-full w-full bg-cover" style="background-image: url('/assets/img/3_min.jpg')">
             <div class="h-full p-4 flex items-end">
               <div>
                   <span class="font-bold text-white text-2xl block">
@@ -194,7 +194,7 @@
             </div>
           </div>
           <div class="w-1/3 h-auto px-4">
-            <div class="mb-4"><img class="object-cover h-56 w-full" src="/assets/img/13-min.jpg" alt="">
+            <div class="mb-4"><img class="object-cover h-56 w-full" src="/assets/img/13_min.jpg" alt="">
             <div class="absolute -mt-20 pl-4">
                   <span class="font-bold text-white text-2xl block">
               TOKYO
@@ -203,7 +203,7 @@
               </div>
               
             </div>
-            <div><img class="object-cover h-56 w-full" src="/assets/img/10-min.jpg" alt="">
+            <div><img class="object-cover h-56 w-full" src="/assets/img/10_min.jpg" alt="">
              <div class="absolute -mt-20 pl-4">
                   <span class="font-bold text-white text-2xl block">
               MAY BAY
@@ -213,7 +213,7 @@
             </div>
           </div>
            <div class="w-1/3">
-            <div class="h-full w-full bg-cover" style="background-image: url('/assets/img/2-min.jpg')">
+            <div class="h-full w-full bg-cover" style="background-image: url('/assets/img/2_min.jpg')">
             <div class="h-full p-4 flex items-end">
               <div>
                   <span class="font-bold text-white text-2xl block">
@@ -228,7 +228,7 @@
         </div>
         <div class="flex flex-wrap mt-4">
           <div class="w-1/3">
-            <div class="h-full w-full bg-cover" style="background-image: url('/assets/img/5-min.jpg')">
+            <div class="h-full w-full bg-cover" style="background-image: url('/assets/img/5_min.jpg')">
             <div class="h-full p-4 flex items-end">
               <div>
                   <span class="font-bold text-white text-2xl block">
@@ -242,7 +242,7 @@
             </div>
           </div>
           <div class="w-1/3 h-auto px-4">
-            <div class="mb-4"><img class="object-cover h-56 w-full" src="/assets/img/6-min.jpg" alt="">
+            <div class="mb-4"><img class="object-cover h-56 w-full" src="/assets/img/6_min.jpg" alt="">
             <div class="absolute -mt-20 pl-4">
                   <span class="font-bold text-white text-2xl block">
               VENICE
@@ -251,7 +251,7 @@
               </div>
               
             </div>
-            <div><img class="object-cover h-56 w-full" src="/assets/img/8-min.jpg" alt="">
+            <div><img class="object-cover h-56 w-full" src="/assets/img/8_min.jpg" alt="">
              <div class="absolute -mt-20 pl-4">
                   <span class="font-bold text-white text-2xl block">
               ROTTERDAM
@@ -261,7 +261,7 @@
             </div>
           </div>
            <div class="w-1/3">
-            <div class="h-full w-full bg-cover" style="background-image: url('/assets/img/7-min.jpg')">
+            <div class="h-full w-full bg-cover" style="background-image: url('/assets/img/7_min.jpg')">
             <div class="h-full p-4 flex items-end">
               <div>
                   <span class="font-bold text-white text-2xl block">
@@ -282,7 +282,7 @@
       <div class="flex">
         <div style="width:568px" class="bg-gray-200">
         <div class="w-16 h-16 bg-white"></div>
-        <img src="/assets/img/3-min.jpg" class="object-cover w-full" style="height:360px" alt="">
+        <img src="/assets/img/3_min.jpg" class="object-cover w-full" style="height:360px" alt="">
         </div>
         <div style="width:342px;height:358px" class="flex bg-gray-200 p-6 flex-col">
         <div class="my-auto">
@@ -349,10 +349,10 @@
   </div>
   <div class="flex absolute gap-2" >
     <div>
-      <img src="/assets/img/4-min.jpg" style="height:160px;width:264px" class="object-cover" alt="">
+      <img src="/assets/img/4_min.jpg" style="height:160px;width:264px" class="object-cover" alt="">
     </div>
     <div class="shadow-lg">
-      <img src="/assets/img/5-min.jpg" style="height:160px;width:264px" class="object-cover" alt="">
+      <img src="/assets/img/5_min.jpg" style="height:160px;width:264px" class="object-cover" alt="">
     </div>
     
     
