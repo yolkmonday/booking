@@ -48,7 +48,7 @@
         <div class="absolute container flex items-center" style="height:600px;">
           <div class="text-center w-full">
             <span class="mx-auto font-bold text-5xl text-white block">
-            Milano
+            Rotterdam
           </span>
           <span class="text-white block">
             EXCELLENT OPPORTUNITY
@@ -56,7 +56,7 @@
           </div>
           
         </div>
-         <img src="~/assets/1.jpeg" style="height:600px" class="w-full object-cover" alt="">   
+         <img src="/assets/img/8.jpg" style="height:600px" class="w-full object-cover" alt="">   
       </div>
  
       <div class="bg-white w-10 flex items-center cursor-pointer ">
@@ -178,41 +178,14 @@
       <div class="h-12"></div>
 
 
-      <div class="flex gap-4">
-       <div class="w-3/12 grid grid-rows-2 gap-4" style="max-height:600px">
-       <div>
-         <img src="/bg.jpg" alt="">
-       </div>
-         <div>
-         <img src="/bg.jpg" alt="">
-       </div>
-       </div>
-        <div class="w-6/12 grid grid-rows-3" style="max-height:900px">
-       <div>
-         <img class="h-full object-cover w-full" src="/bg.jpg" alt="">
-       </div>
-         <div>
-         <img class="h-full object-cover w-full" src="/bg.jpg" alt="">
-       </div>
-        <div>
-         <img class="h-full object-cover w-full" src="/bg.jpg" alt="">
-       </div>
-       </div>
-        <div class="w-3/12 grid grid-rows-2 gap-4" style="max-height:600px">
-       <div>
-         <img src="/bg.jpg" alt="">
-       </div>
-         <div>
-         <img src="/bg.jpg" alt="">
-       </div>
-       </div>
-      </div>
+
+
       <div class="h-12"></div>
       <!-- last booking -->
       <div class="flex">
         <div style="width:568px" class="bg-gray-200">
         <div class="w-16 h-16 bg-white"></div>
-        <img src="/bg.jpg" class="object-cover w-full" style="height:360px" alt="">
+        <img src="/assets/img/3.jpg" class="object-cover w-full" style="height:360px" alt="">
         </div>
         <div style="width:342px;height:358px" class="flex bg-gray-200 p-6 flex-col">
         <div class="my-auto">
@@ -220,6 +193,12 @@
             <span class="text-title font-title font-bold block leading-10 text-purple-three">
               LAST<br>BOOKINGS
             </span>
+            <div class="pt-4 pb-6">
+              <svg width="200" height="4" viewBox="0 0 200 4" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="80" height="2" fill="#C4C4C4"/>
+</svg>
+
+            </div>
           </div>
           <div class="w-full">
             <div class="grid grid-cols-2 py-4">
@@ -233,7 +212,16 @@
           </div>
 
           <div class="w-full">
-            <span class="text-xs leading-4">Hampton Court Palace Hotel has for ondon The title book in advance.</span>
+            <span class="text-xs leading-4 text-gray-600">Hampton Court Palace Hotel has for ondon The title book in advance.</span>
+            
+          </div>
+          <div class="mt-24 absolute flex flex-row gap-2">
+            <div class="transform rotate-180">
+              <svg class="h-4" xmlns="http://www.w3.org/2000/svg" width="24" fill="#C4C4C4" height="24" viewBox="0 0 24 24"><path d="M13.025 1l-2.847 2.828 6.176 6.176h-16.354v3.992h16.354l-6.176 6.176 2.847 2.828 10.975-11z"/></svg>
+            </div>
+            <div>
+              <svg class="h-4" xmlns="http://www.w3.org/2000/svg" width="24" fill="#C4C4C4" height="24" viewBox="0 0 24 24"><path d="M13.025 1l-2.847 2.828 6.176 6.176h-16.354v3.992h16.354l-6.176 6.176 2.847 2.828 10.975-11z"/></svg>
+            </div>
             
           </div>
         </div>
@@ -246,23 +234,28 @@
 <div class="h-24"></div>
 <!-- malaga -->
 <div class="flex">
-  <div class="w-1/2">
+  <div class="w-5/12">
   <div class="p-12">
     <span class="font-bold font-title font-bold text-xl block">
     IS THAT STILL HAVE NOT<br> DECIDED WHERE TO GO ?
   </span>
-  <span class="block my-10">
+  <div class="pt-4 pb-6">
+     <svg width="200" height="4" viewBox="0 0 200 4" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="80" height="2" fill="#C4C4C4"/>
+</svg>
+  </div>
+  <span class="block my-6 text-gray-600">
     We want to make decision !<br>
     Our verified guest rating allows you to find the perfect accomodation.
   </span>
-  <button class="text-purple-three rounded-full py-2 px-6 border-2 border-purple-three text-sm">SHOW ALL</button>
+  <button class="text-purple-three rounded-full py-2 px-6 border-2 border-purple-three text-sm hover:text-white hover:bg-purple-three">SHOW ALL</button>
   </div>
   <div class="flex absolute gap-2" >
     <div>
-      <img src="/bg.jpg" style="height:160px;width:264px" class="object-cover" alt="">
+      <img src="/assets/img/4.jpg" style="height:160px;width:264px" class="object-cover" alt="">
     </div>
-    <div>
-      <img src="/bg.jpg" style="height:160px;width:264px" class="object-cover" alt="">
+    <div class="shadow-lg">
+      <img src="/assets/img/5.jpg" style="height:160px;width:264px" class="object-cover" alt="">
     </div>
     
     
@@ -271,19 +264,15 @@
 
   </div>
 
-  <div class="w-1/2" style="background:url('/bg.jpg');height:560px">
-  <div class="absolute transform rotate-180">
-    <span class="text-white px-4" style="
-    writing-mode: vertical-rl;
-text-orientation: mixed;
-    ">
+  <div class="w-7/12" style="background:url('/assets/img/2.png');    background-size: cover;;height:560px">
+  <div class="absolute transform -rotate-180 -mt-12">
+    <span class="text-lg px-8" style="writing-mode: vertical-rl;text-orientation: mixed;">
       NOW TAKE PLACE
-      -
     </span>
-    
+       
   </div>
   <div class="text-right p-8">
-    <span class="w-full text-sm text-white rounded-full px-2 border border-white py-1">72 BED AND BREAKFAST</span>
+    <span class="w-full text-xs font-bold text-white rounded-full px-2 border border-white py-1">72 BED AND BREAKFAST</span>
   </div>
 
   </div>
@@ -306,7 +295,10 @@ text-orientation: mixed;
   </div>
    <div class="w-6/12 flex items-center">
    <div>
-     <input type="text" class="border-b placeholder-gray-200 bg-transparent border-b-2 text-5xl focus:outline-none" placeholder="E-mail address">
+     <input type="text" class="border-b placeholder-gray-300 bg-transparent border-b-2 text-5xl focus:outline-none" placeholder="E-mail address">
+   </div>
+   <div class="bg-gray-700 p-4 rounded-full mt-12">
+     <svg class="h-4 w-4" xmlns="http://www.w3.org/2000/svg" fill="#fff" width="24" height="24" viewBox="0 0 24 24"><path d="M24 0l-6 22-8.129-7.239 7.802-8.234-10.458 7.227-7.215-1.754 24-12zm-15 16.668v7.332l3.258-4.431-3.258-2.901z"/></svg>
    </div>
    
    </div>
