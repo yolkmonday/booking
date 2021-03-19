@@ -6,9 +6,9 @@ const app = express()
 const knex = require('knex')({
     client: 'mysql',
     connection: {
-      host : '127.0.0.1',
+      host : '206.189.83.151',
       user : 'root',
-      password : '',
+      password : 'password',
       database : 'booking'
     }
   });
@@ -91,4 +91,4 @@ app.get('/user/info', (req,res,next) => {
     })
 })
 
-app.listen('3000')
+app.listen('9000')

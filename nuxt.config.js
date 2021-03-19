@@ -48,11 +48,11 @@ export default {
 
   // Axios module configuration: https://go.nuxtjs.dev/config-axios
   axios: {
-    baseURL: 'http://206.189.83.151:3000',
+    baseURL: 'http://206.189.83.151:9000',
     proxy: true
   },
   proxy: {
-    '/api/': { target: 'http://206.189.83.151:3000', pathRewrite: {'^/api/': ''}, changeOrigin: true }
+    '/api/': { target: 'http://206.189.83.151:9000', pathRewrite: {'^/api/': ''}, changeOrigin: true }
   },
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
