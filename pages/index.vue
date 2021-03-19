@@ -177,10 +177,107 @@
       <!-- kota -->
       <div class="h-12"></div>
 
+<section>
+        <div class="flex flex-wrap">
+          <div class="w-1/3">
+            <div class="h-full w-full bg-cover" style="background-image: url('/assets/img/3.jpg')">
+            <div class="h-full p-4 flex items-end">
+              <div>
+                  <span class="font-bold text-white text-2xl block">
+              VENICE
+            </span>
+            <span class="text-white block">ITALIA</span>
+              </div>
+              
+            </div>
+            
+            </div>
+          </div>
+          <div class="w-1/3 h-auto px-4">
+            <div class="mb-4"><img class="object-cover h-56 w-full" src="/assets/img/13.jpg" alt="">
+            <div class="absolute -mt-20 pl-4">
+                  <span class="font-bold text-white text-2xl block">
+              TOKYO
+            </span>
+            <span class="text-white block">JAPAN</span>
+              </div>
+              
+            </div>
+            <div><img class="object-cover h-56 w-full" src="/assets/img/10.jpg" alt="">
+             <div class="absolute -mt-20 pl-4">
+                  <span class="font-bold text-white text-2xl block">
+              MAY BAY
+            </span>
+            <span class="text-white block">THAILAND</span>
+              </div>
+            </div>
+          </div>
+           <div class="w-1/3">
+            <div class="h-full w-full bg-cover" style="background-image: url('/assets/img/2.jpg')">
+            <div class="h-full p-4 flex items-end">
+              <div>
+                  <span class="font-bold text-white text-2xl block">
+              MALAGA
+            </span>
+            <span class="text-white block">ESPANA</span>
+              </div>
+              
+            </div>
+            </div>
+          </div>
+        </div>
+        <div class="flex flex-wrap mt-4">
+          <div class="w-1/3">
+            <div class="h-full w-full bg-cover" style="background-image: url('/assets/img/5.jpg')">
+            <div class="h-full p-4 flex items-end">
+              <div>
+                  <span class="font-bold text-white text-2xl block">
+              AMSTERDAM
+            </span>
+            <span class="text-white block">NETHERLAND</span>
+              </div>
+              
+            </div>
+            
+            </div>
+          </div>
+          <div class="w-1/3 h-auto px-4">
+            <div class="mb-4"><img class="object-cover h-56 w-full" src="/assets/img/6.jpg" alt="">
+            <div class="absolute -mt-20 pl-4">
+                  <span class="font-bold text-white text-2xl block">
+              VENICE
+            </span>
+            <span class="text-white block">ITALIA</span>
+              </div>
+              
+            </div>
+            <div><img class="object-cover h-56 w-full" src="/assets/img/8.jpg" alt="">
+             <div class="absolute -mt-20 pl-4">
+                  <span class="font-bold text-white text-2xl block">
+              ROTTERDAM
+            </span>
+            <span class="text-white block">NETHERLAND</span>
+              </div>
+            </div>
+          </div>
+           <div class="w-1/3">
+            <div class="h-full w-full bg-cover" style="background-image: url('/assets/img/7.jpg')">
+            <div class="h-full p-4 flex items-end">
+              <div>
+                  <span class="font-bold text-white text-2xl block">
+              JAKARTA
+            </span>
+            <span class="text-white block">INDONESIA</span>
+              </div>
+              
+            </div>
+            </div>
+          </div>
+        </div>
+      </section>
 
 
-
-      <div class="h-12"></div>
+      <div class="h-16"></div>
       <!-- last booking -->
       <div class="flex">
         <div style="width:568px" class="bg-gray-200">
