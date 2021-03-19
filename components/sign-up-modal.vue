@@ -1,11 +1,11 @@
 <template>
+
 <div class="fixed z-10 inset-0 overflow-y-auto">
   <div class="flex items-end justify-center min-h-screen pt-4 px-4 pb-20 text-center sm:block sm:p-0">
+
     <div class="fixed inset-0 transition-opacity" aria-hidden="true">
       <div class="absolute inset-0 bg-gray-500 opacity-75"></div>
     </div>
-
-
     <span class="hidden sm:inline-block sm:align-middle sm:h-screen" aria-hidden="true">&#8203;</span>
 
     <div class="inline-block align-bottom text-left overflow-hidden transform transition-all sm:my-8 sm:align-middle sm:max-w-lg sm:w-full" role="dialog" aria-modal="true" aria-labelledby="modal-headline">
@@ -16,23 +16,21 @@
    <div class="clearfix w-full">
        <svg @click.prevent="$emit('close')" class="cursor-pointer float-right mb-6 z-40" width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd"><path d="M12 0c6.623 0 12 5.377 12 12s-5.377 12-12 12-12-5.377-12-12 5.377-12 12-12zm0 1c6.071 0 11 4.929 11 11s-4.929 11-11 11-11-4.929-11-11 4.929-11 11-11zm0 10.293l5.293-5.293.707.707-5.293 5.293 5.293 5.293-.707.707-5.293-5.293-5.293 5.293-.707-.707 5.293-5.293-5.293-5.293.707-.707 5.293 5.293z"/></svg>
    </div>
-    <div class="font-medium self-center text-xl sm:text-2xl uppercase text-gray-800">Login To Your Account</div>
-    <button class="relative mt-6 border rounded-md py-2 text-sm text-gray-800 bg-gray-100 hover:bg-gray-200">
-      <span class="absolute left-0 top-0 flex items-center justify-center h-full w-10 text-purple-dark">
-          
-          <svg class="h-6 pl-6" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 48 48"><defs><path id="a" d="M44.5 20H24v8.5h11.8C34.7 33.9 30.1 37 24 37c-7.2 0-13-5.8-13-13s5.8-13 13-13c3.1 0 5.9 1.1 8.1 2.9l6.4-6.4C34.6 4.1 29.6 2 24 2 11.8 2 2 11.8 2 24s9.8 22 22 22c11 0 21-8 21-22 0-1.3-.2-2.7-.5-4z"/></defs><clipPath id="b"><use xlink:href="#a" overflow="visible"/></clipPath><path clip-path="url(#b)" fill="#FBBC05" d="M0 37V11l17 13z"/><path clip-path="url(#b)" fill="#EA4335" d="M0 11l17 13 7-6.1L48 14V0H0z"/><path clip-path="url(#b)" fill="#34A853" d="M0 37l30-23 7.9 1L48 0v48H0z"/><path clip-path="url(#b)" fill="#4285F4" d="M48 48L17 24l-4-3 35-10z"/></svg>
-      </span>
-      <span>Login with Google</span>
-    </button>
-    <div class="relative mt-10 h-px">
-      <div class="absolute left-0 top-0 flex justify-center w-full -mt-2">
-        <span class="px-4 text-xs text-gray-500 uppercase">Or Login With Email</span>
-      </div>
-    </div>
+    <div class="font-medium self-center text-xl sm:text-2xl uppercase text-gray-800">Create Account</div>
     <div class="mt-10">
-      <form @submit.prevent="login">
+      <form @submit.prevent="register">
         <div class="flex flex-col mb-6">
-          <label for="email" class="mb-1 text-xs sm:text-sm tracking-wide text-gray-600">E-Mail Address:</label>
+          <label for="email" class="mb-1 text-xs sm:text-sm tracking-wide text-gray-600">Name:</label>
+          <div class="relative">
+            <div class="inline-flex items-center justify-center absolute left-0 top-0 h-full w-10 text-gray-400">
+            <svg fill="#cbd5e0" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M20.822 18.096c-3.439-.794-6.641-1.49-5.09-4.418 4.719-8.912 1.251-13.678-3.732-13.678-5.082 0-8.465 4.949-3.732 13.678 1.598 2.945-1.725 3.641-5.09 4.418-2.979.688-3.178 2.143-3.178 4.663l.005 1.241h1.995c0-3.134-.125-3.55 1.838-4.003 2.851-.657 5.543-1.278 6.525-3.456.359-.795.592-2.103-.338-3.815-2.058-3.799-2.578-7.089-1.423-9.026 1.354-2.275 5.426-2.264 6.767-.034 1.15 1.911.639 5.219-1.403 9.076-.91 1.719-.671 3.023-.31 3.814.99 2.167 3.707 2.794 6.584 3.458 1.879.436 1.76.882 1.76 3.986h1.995l.005-1.241c0-2.52-.199-3.975-3.178-4.663z"/></svg>
+            </div>
+
+            <input id="name" type="text" name="name" class="text-sm sm:text-base placeholder-gray-500 pl-10 pr-4 rounded-lg border border-gray-400 w-full py-2 focus:outline-none focus:border-blue-400" placeholder="Type your name" />
+          </div>
+        </div>
+        <div class="flex flex-col mb-6">
+          <label for="email" class="mb-1 text-xs sm:text-sm tracking-wide text-gray-600">E-Mail:</label>
           <div class="relative">
             <div class="inline-flex items-center justify-center absolute left-0 top-0 h-full w-10 text-gray-400">
               <svg class="h-6 w-6" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" stroke="currentColor">
@@ -58,18 +56,14 @@
           </div>
         </div>
 
-        <div class="flex items-center mb-6 -mt-4">
-          <div class="flex ml-auto">
-            <a href="#" class="inline-flex text-xs sm:text-sm text-purple-dark hover:text-purple-three">Forgot Your Password?</a>
-          </div>
-        </div>
+       
 
-        <div class="flex w-full">
+               <div class="flex w-full">
           <button v-if="isLoading" class="flex items-center justify-center focus:outline-none text-white text-sm sm:text-base bg-gray-600 rounded py-2 w-full transition duration-150 ease-in">
             Logged in...
           </button>
           <button v-if="!isLoading" type="submit" class="flex items-center justify-center focus:outline-none text-white text-sm sm:text-base bg-purple-dark hover:bg-purple-three rounded py-2 w-full transition duration-150 ease-in">
-            <span class="mr-2 uppercase">Login</span>
+            <span class="mr-2 uppercase">Register</span>
             <span>
               <svg class="h-6 w-6" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" stroke="currentColor">
                 <path d="M13 9l3 3m0 0l-3 3m3-3H8m13 0a9 9 0 11-18 0 9 9 0 0118 0z" />
@@ -79,16 +73,7 @@
         </div>
       </form>
     </div>
-    <div class="flex justify-center items-center mt-6">
-      <a @click.prevent="$emit('signUp')" class="inline-flex items-center font-bold text-purple-dark hover:text-purple-three text-xs text-center">
-        <span>
-          <svg class="h-6 w-6" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" stroke="currentColor">
-            <path d="M18 9v3m0 0v3m0-3h3m-3 0h-3m-2-5a4 4 0 11-8 0 4 4 0 018 0zM3 20a6 6 0 0112 0v1H3v-1z" />
-          </svg>
-        </span>
-        <span class="ml-2">You don't have an account?</span>
-      </a>
-    </div>
+   
   </div>
 </div>
       </div>
@@ -96,6 +81,7 @@
   </div>
 </div>
 </template>
+
 
 <script>
 export default {
@@ -106,9 +92,9 @@ export default {
     }
   },
   methods: {
-    login() {
+    register() {
       this.isLoading = true
-      this.$axios.post('user/login').then(r=> {
+      this.$axios.post('user/register').then(r=> {
         
       })
     }

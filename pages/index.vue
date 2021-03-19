@@ -8,7 +8,7 @@
       </div>
       <div class="w-1/2 text-right inline-block">
       
-    <div @click.prevent="isShowLogin=true" class="text-xs mr-12 flex items-center float-right">
+    <div @click.prevent="isShowLogin=true" class="text-xs mr-12 flex cursor-pointer items-center float-right">
       <div>
       <svg class="h-4" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M17 9.761v-4.761c0-2.761-2.238-5-5-5-2.763 0-5 2.239-5 5v4.761c-1.827 1.466-3 3.714-3 6.239 0 4.418 3.582 8 8 8s8-3.582 8-8c0-2.525-1.173-4.773-3-6.239zm-5 8.239c-1.104 0-2-.896-2-2s.896-2 2-2 2 .896 2 2-.896 2-2 2zm3-9.413c-.927-.376-1.938-.587-3-.587s-2.073.211-3 .587v-3.587c0-1.654 1.346-3 3-3s3 1.346 3 3v3.587z"/></svg>
       </div>
@@ -480,7 +480,8 @@
     </div>
     <div class="h-12"></div>
     <!-- footer -->
-<login-modal v-if="isShowLogin" @close="close" />
+<login-modal v-if="isShowLogin" @close="close" @signUp="signUp" />
+<sign-up-modal v-if="isSignUp" @close="close" />
 </div>
 
   </div>
@@ -492,12 +493,18 @@ export default {
       childrens: 3,
       adults: 3,
       isShowLogin: false,
+      isSignUp: false,
       date: new Date()
     }
   },
   methods: {
     close() {
       this.isShowLogin = false
+      this.isSignUp = false
+    },
+    signUp() {
+      this.isShowLogin = false
+      this.isSignUp = true
     }
   }
 }
