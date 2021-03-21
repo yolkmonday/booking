@@ -6,10 +6,10 @@ const app = express()
 const knex = require('knex')({
     client: 'mysql',
     connection: {
-      host : '206.189.83.151',
-      user : 'root',
-      password : 'password',
-      database : 'booking'
+      host : '${{ secrets.HOST }}',
+      user : '${{ secrets.DB_USER }}',
+      password : '${{ secrets.PASSWORD }}',
+      database : '${{ secrets.DB }}'
     }
   });
 app.use(bodyParser.json())
